@@ -1,0 +1,50 @@
+/* Login.css */
+
+.container {
+    max-width: 400px; /* Chiều rộng tối đa của form */
+    margin: 50px auto; /* Căn giữa form trên màn hình */
+    padding: 20px; /* Khoảng cách bên trong */
+    border: 1px solid #ccc; /* Đường viền */
+    border-radius: 5px; /* Bo tròn góc */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Đổ bóng */
+    background-color: #f9f9f9; /* Màu nền */
+}
+
+h2 {
+    text-align: center; /* Căn giữa tiêu đề */
+    margin-bottom: 20px; /* Khoảng cách dưới tiêu đề */
+}
+
+label {
+    display: block; /* Hiển thị label theo dạng block */
+    margin-bottom: 5px; /* Khoảng cách dưới label */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 93%; /* Chiều rộng đầy đủ */
+    padding: 10px; /* Khoảng cách bên trong */
+    margin-bottom: 15px; /* Khoảng cách dưới input */
+    border: 1px solid #ccc; /* Đường viền */
+    border-radius: 5px; /* Bo tròn góc */
+}
+
+input[type="checkbox"] {
+    margin-right: 10px; /* Khoảng cách bên phải checkbox */
+}
+
+button {
+    width: 100%; /* Chiều rộng đầy đủ */
+    padding: 10px; /* Khoảng cách bên trong */
+    background-color: #007bff; /* Màu nền nút */
+    color: white; /* Màu chữ */
+    border: none; /* Không có đường viền */
+    border-radius: 5px; /* Bo tròn góc */
+    cursor: pointer;
+    font-size: 16px; /* Đổi con trỏ khi hover */
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3; /* Màu nền khi hover */
+}
